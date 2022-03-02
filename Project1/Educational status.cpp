@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-	int number[3];
-	string name[3];
-	for (int i = 0; i <=2; i++)
+	int number[7];
+	string name[7];
+	for (int i = 0; i <=6; i++)
 	{
 		cout << "Please Enter a student name  " << endl;
 		cin >> name[i];
@@ -23,7 +23,7 @@ int main()
 	}
 	cout << "===========" << "Summery" << "===========" << endl;
 	cout << "Student name" << " " <<"class number" << endl;
-	for (int i = 0; i <=2 ; i++)
+	for (int i = 0; i <=6 ; i++)
 	{
 		if (number[i] < 10)
 		{
